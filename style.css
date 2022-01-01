@@ -1,0 +1,297 @@
+@media only screen and (max-width :700px){
+body{
+    text-align: center;
+    margin:0 ;
+    height :100vh;
+    
+}
+
+.top-container{
+    margin : 0;
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    color :blueviolet;
+    font-size: 3.625em;
+    margin:3.125rem auto 7rem auto ;
+
+    animation:4s linear 0s infinite running myColorChange;
+    
+}
+
+@keyframes myColorChange{
+    20%{color:green;}
+    40%{color:red;}
+    60%{color:yellow;}
+    80%{color:cyan;}
+    100%{color:blue;}
+}
+
+.san{
+    font-family: 'Merriweather',serif;
+    color :#61045F;
+    font-weight: bold;
+    font-size: 2.3rem;
+
+    padding-bottom: 40px;
+    
+}
+
+
+hr{
+    border : dotted #D47AE8 4px;
+    border-bottom: none;
+    width : 4%;
+
+}
+
+.image{
+    padding-top: 40px;
+    max-width: 100%;
+}
+
+
+
+@keyframes myOpacity{
+    20% {opacity :0 ;}
+}
+
+
+.audio{
+    
+     
+        background: #4ad934;
+        background-image: -webkit-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -moz-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -ms-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -o-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: linear-gradient(to bottom, #4ad934, #ac2bb8);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: 'Merriweather',serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+      }
+      
+      .audio:hover {
+        background: #fca63c;
+        background-image: -webkit-linear-gradient(top, #fca63c, #d93434);
+        background-image: -moz-linear-gradient(top, #fca63c, #d93434);
+        background-image: -ms-linear-gradient(top, #fca63c, #d93434);
+        background-image: -o-linear-gradient(top, #fca63c, #d93434);
+        background-image: linear-gradient(to bottom, #fca63c, #d93434);
+        text-decoration: none;
+      }
+
+.middle-container{
+    width : 60% ;
+    margin :auto;
+}
+
+.instagram{
+    width : 9%;
+}
+
+
+.gmail{
+    width : 9.89%
+
+}
+
+.btn {
+    background: #fc3c7c;
+    background-image: -webkit-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -moz-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -ms-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -o-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: linear-gradient(to bottom, #fc3c7c, #3434d9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Merriweather',serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #a5bd46;
+    background-image: -webkit-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -moz-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -ms-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -o-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: linear-gradient(to bottom, #a5bd46, #2cb8ac);
+    text-decoration: none;
+  }
+.bottom-container{
+    
+    padding : 50px 0 20px ;
+    
+}
+
+.copyright{
+    font-size: 1rem;
+    padding : 10px 0 ;
+}
+
+}
+
+body{
+    text-align: center;
+    margin:0 ;
+    height :100vh;
+    
+}
+
+.top-container{
+    margin : 0;
+}
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    color :blueviolet;
+    font-size: 4.625em;
+    margin:3.125rem auto 7rem auto ;
+
+    animation:4s linear 0s infinite running myColorChange;
+    
+}
+
+@keyframes myColorChange{
+    20%{color:green;}
+    40%{color:red;}
+    60%{color:yellow;}
+    80%{color:cyan;}
+    100%{color:blue;}
+}
+
+.san{
+    font-family: 'Merriweather',serif;
+    color :#61045F;
+    font-weight: bold;
+    font-size: 2.3rem;
+
+    padding-bottom: 40px;
+    
+}
+
+
+hr{
+    border : dotted #D47AE8 4px;
+    border-bottom: none;
+    width : 4%;
+
+}
+
+.image{
+    padding-top: 40px;
+    max-width: 100%;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Merriweather',serif;
+}
+.new{
+    color :#fc3c7c;
+    font-size: 1rem;
+    font-family: 'Merriweather',serif;
+    font-weight: bolder;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    animation:4s linear 0s infinite running myOpacity
+    
+}
+
+@keyframes myOpacity{
+    40% {opacity :0 ;}
+}
+
+.audio{
+    
+     
+        background: #4ad934;
+        background-image: -webkit-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -moz-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -ms-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: -o-linear-gradient(top, #4ad934, #ac2bb8);
+        background-image: linear-gradient(to bottom, #4ad934, #ac2bb8);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: 'Merriweather',serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+        text-decoration: none;
+      }
+      
+      .audio:hover {
+        background: #fca63c;
+        background-image: -webkit-linear-gradient(top, #fca63c, #d93434);
+        background-image: -moz-linear-gradient(top, #fca63c, #d93434);
+        background-image: -ms-linear-gradient(top, #fca63c, #d93434);
+        background-image: -o-linear-gradient(top, #fca63c, #d93434);
+        background-image: linear-gradient(to bottom, #fca63c, #d93434);
+        text-decoration: none;
+      }
+
+.middle-container{
+    width : 60% ;
+    margin :auto;
+}
+
+.instagram{
+    width : 3%;
+}
+
+
+.gmail{
+    width : 5.89%
+
+}
+
+.btn {
+    background: #fc3c7c;
+    background-image: -webkit-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -moz-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -ms-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: -o-linear-gradient(top, #fc3c7c, #3434d9);
+    background-image: linear-gradient(to bottom, #fc3c7c, #3434d9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Merriweather',serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #a5bd46;
+    background-image: -webkit-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -moz-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -ms-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: -o-linear-gradient(top, #a5bd46, #2cb8ac);
+    background-image: linear-gradient(to bottom, #a5bd46, #2cb8ac);
+    text-decoration: none;
+  }
+.bottom-container{
+    
+    padding : 50px 0 20px ;
+    
+}
+
+.copyright{
+    font-size: 1rem;
+    padding : 10px 0 ;
+}
+
